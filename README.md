@@ -70,7 +70,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.meankbn;
+})();
 })();
 </script>
 ```
@@ -181,6 +183,7 @@ var v = meankbn.ndarray( N, x, 2, 1 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-meankbn@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var x;
 var i;
@@ -194,6 +197,7 @@ console.log( x );
 var v = meankbn( x.length, x, 1 );
 console.log( v );
 
+})();
 })();
 </script>
 </body>
@@ -311,11 +315,11 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dmeankbn]: https://github.com/stdlib-js/stats-base-dmeankbn/tree/umd
+[@stdlib/stats/base/dmeankbn]: https://github.com/stdlib-js/stats-base-dmeankbn/tree/umd/tree/umd
 
-[@stdlib/stats/base/mean]: https://github.com/stdlib-js/stats-base-mean/tree/umd
+[@stdlib/stats/base/mean]: https://github.com/stdlib-js/stats-base-mean/tree/umd/tree/umd
 
-[@stdlib/stats/base/smeankbn]: https://github.com/stdlib-js/stats-base-smeankbn/tree/umd
+[@stdlib/stats/base/smeankbn]: https://github.com/stdlib-js/stats-base-smeankbn/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
